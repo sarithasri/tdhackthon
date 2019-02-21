@@ -1,0 +1,27 @@
+[
+  {
+    "item_id": "1",
+    "name": "Wind direction towards north will affect San Degio",
+    "description": "Wind direction towards north will affect San Degio",
+    "icon": "notifications_active",
+    "created" : "07/13/2016 11:05 AM"
+  },{
+    "item_id": "2",
+    "name": "Population density will increase disease spreading",
+    "description": "Population density will increase disease spreading",
+    "icon": "notifications_active",
+    "created" : "07/01/2016 03:41 PM"
+  },{
+    "item_id": "3",
+    "name": "Tijuana is severely affected with the disease",
+    "description": "Tijuana is severely affected with the disease",
+    "icon": "notifications",
+    "created" : "06/15/2016 09:02 AM"
+  },{
+    "item_id": "4",
+    "name": "People of Tijuana requested to vacate the city",
+    "description": "People of Tijuana requested to vacate the city",
+    "icon": "notifications",
+    "created" : "03/23/2016 11:01 PM"
+  }
+]
