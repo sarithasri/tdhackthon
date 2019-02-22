@@ -1,0 +1,15 @@
+{
+  "/current": {
+    "target": "http://wingd186020-pik:8080/RA/rest/MapService/current",
+    "secure": false
+  },
+  "/predict": {
+    "target": "http://wingd186020-pik:8080/RA/rest/MapService/predict",
+    "secure": false
+  },
+  "/details": {
+    "target": "http://wingd186020-pik:8080/RA/rest/MapService/predict",
+    "secure": false
+  }
+}
+

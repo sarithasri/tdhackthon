@@ -13,7 +13,7 @@
             <!-- <a mat-icon-button matTooltip="Github" href="https://github.com/teradata/covalent" target="_blank"><mat-icon svgIcon="assets:teradatalogo"></mat-icon></a> -->
           </div>
           <div layout-gt-sm="row" tdMediaToggle="gt-xs" [mediaClasses]="['push-sm']">
-            <div flex-gt-sm="65">
+            <div flex-gt-sm="90">
               <div layout-gt-xs="row">
                 <div flex-gt-xs="100">
                   <mat-card>
@@ -44,35 +44,36 @@
                     </mat-card-content>
                   </mat-card>
                 </div>
-                <div flex-gt-xs="25">
+                <div flex-gt-xs="20">
                   <mat-card>
                       
-                    <mat-card-content class="text-center" [style.backgroundColor]="'lightblue'">
+                    <mat-card-content class="text-center" [style.backgroundColor]="''">
                       <div>
                         <div class="mat-subheading-2 push-bottom-none"></div>
                         
                         <!-- <div class="mat-subheading-2 push-bottom-none">Current Status</div> -->
                         <!-- <button mat-menu-item>Current Status </button> -->
-                        <button (click)="myClickFunction()" >
-          Present
-        </button>
-                         </div>
-                    </mat-card-content>
-                  </mat-card>
-                </div>
-                <div flex-gt-xs="25">
-                  <mat-card>
-                    <mat-card-content class="text-center" [style.backgroundColor]="'lightblue'">
-                      <!-- <div class="mat-headline push-bottom-none">{{ '100' | digits}} <mat-icon class="tc-green-500 text-sm">arrow_upward</mat-icon></div> -->
-                      <!-- <mat-icon class="icon tc-cyan-700">receipt</mat-icon> -->
-                      <div>
-                        <div class="mat-subheading-2 push-bottom-none"></div>
-                        <button mat-menu-item>Future Prediction</button>
-                      
+                        <!-- <button (click)="myClickFunction()" >Present</button> -->
+                        <button (click)="myClickFunction()" _ngcontent-c47="" class="text-upper mat-raised-button mat-accent" color="bgc-blue-grey-" mat-raised-button="">Present</button>
+                        <!-- <button (click)="myClickFunction2()">Future Prediction</button>  -->
+                        <button (click)="myClickFunction2()" _ngcontent-c47="" class="text-upper mat-raised-button mat-accent" color="bgc-blue-grey-" mat-raised-button="">Future Prediction</button>  
                       </div>
                     </mat-card-content>
                   </mat-card>
                 </div>
+                <!-- <div flex-gt-xs="25"> -->
+                  <!-- <mat-card> -->
+                    <!-- <mat-card-content class="text-center" [style.backgroundColor]="''"> -->
+                      <!-- <div class="mat-headline push-bottom-none">{{ '100' | digits}} <mat-icon class="tc-green-500 text-sm">arrow_upward</mat-icon></div> -->
+                      <!-- <mat-icon class="icon tc-cyan-700">receipt</mat-icon> -->
+                      <!-- <div> -->
+                        <!-- <div class="mat-subheading-2 push-bottom-none"></div> -->
+                        <!-- <button (click)="myClickFunction2()" >Future Prediction</button>-->
+                      
+                      <!-- </div> -->
+                    <!-- </mat-card-content> -->
+                  <!-- </mat-card> -->
+                <!-- </div> -->
                      </div>
               <!-- <mat-card>
                 <mat-card-title>Customer Activity</mat-card-title>
@@ -96,6 +97,8 @@
             </div>
             <div flex-gt-sm="40">
               <mat-card>
+
+      <mat-icon _ngcontent-c423="" class="mat-icon ng-tns-c423-0 material-icons" role="img" aria-hidden="true">notifications</mat-icon>
                 <mat-card-title>Notifications</mat-card-title>
                 <!-- <mat-card-subtitle>Areas requiring attention</mat-card-subtitle> -->
                 <mat-divider></mat-divider>
