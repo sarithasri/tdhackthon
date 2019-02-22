@@ -23,5 +23,11 @@
     "description": "People of Tijuana requested to vacate the city",
     "icon": "notifications",
     "created" : "03/23/2016 11:01 PM"
+  },{
+    "item_id": "5",
+    "name": "Disease affecting on west-coast part of USA",
+    "description": "Disease affecting on west-coast part of USA",
+    "icon": "notifications",
+    "created" : "03/23/2016 11:01 PM"
   }
 ]
