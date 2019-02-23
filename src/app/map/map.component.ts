@@ -53,19 +53,19 @@ clickedMarker(label: string, index: number) {
   }
 	
 	 markers: marker[] = [
-	 // {
-
-		//	lat: 32.7441658,
-		 // lng: -118.0223405,
+	  //{
+		//lat":36.77,"lng":-119.41},{"draggable":true,"label":"A","lat":44.31,"lng":-85.63}
+			//lat: 36.77,
+		// lng: -119.41,
 		 // label: 'A',
-		// draggable: false
+		 //draggable: false
 	 // },
 	// {
-		 // lat: 51.373858,
-		 // lng: 7.215982,
-		 // label: '',
-		 //draggable: false
-	  //}
+	//	 lat: 44.31,
+		//  lng: -85.6,
+		 // label: 'B',
+		// draggable: false
+	 // }
 	 // {
 		 // lat: 51.723858,
 		  //lng: 7.895982,

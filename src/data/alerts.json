@@ -25,8 +25,26 @@
     "created" : "03/23/2016 11:01 PM"
   },{
     "item_id": "5",
-    "name": "Disease affecting on west-coast part of USA",
-    "description": "Disease affecting on west-coast part of USA",
+    "name": "Pertussis airborne disease occurs in winter",
+    "description": "Pertussis(Whooping cough) airborne disease occurs in winter",
+    "icon": "notifications",
+    "created" : "03/23/2016 11:01 PM"
+  },{
+    "item_id": "6",
+    "name": "Wind flow from costal and Michigan lake will be cold ",
+    "description": "Wind flow from costal and Michigan lake will be cold ",
+    "icon": "notifications",
+    "created" : "03/23/2016 11:01 PM"
+  },{
+    "item_id": "7",
+    "name": "Mumps will effect Virginia and Tennessee ",
+    "description": "WMumps will effect Virginia and Tennessee  ",
+    "icon": "notifications",
+    "created" : "03/23/2016 11:01 PM"
+  },{
+    "item_id": "8",
+    "name": "Pertussis is predicted in Virginia and tennessee",
+    "description": "Pertussis is predicted in Virginia and tennessee states",
     "icon": "notifications",
     "created" : "03/23/2016 11:01 PM"
   }

@@ -32,7 +32,7 @@ export class TrasnferService {
 		 // label: 'A',
 		// draggable: false
 	 // },
-     // this.functionlist=[[{"draggable":true,"label":"A","lat":51.2,"lng":-123.875903},{"draggable":true,"label":"A","lat":41.26955,"lng":-121.416081},{"draggable":true,"label":"A","lat":34.912962,"lng":-119.307663}]];
+   //this.functionlist=[{"draggable":true,"label":"A","lat":41.26955,"lng":-121.416081},{"draggable":true,"label":"A","lat":34.912962,"lng":-119.307663}];
   return this.functionlist;
     }
 
@@ -43,7 +43,7 @@ export class TrasnferService {
        error => console.log("Error : " + error));
      console.log(this.functionlist)
      console.log("SecondmapOutValidation")
-     //this.functionlist=[{"draggable":true,"label":"A","lat":41.26955,"lng":-121.416081},{"draggable":true,"label":"A","lat":34.912962,"lng":-119.307663}]];
+    // this.functionlist=[{"draggable":true,"label":"A","lat":41.26955,"lng":-121.416081},{"draggable":true,"label":"A","lat":34.912962,"lng":-119.307663}];
     // this.functionlist= 
   return this.functionlist;
     }

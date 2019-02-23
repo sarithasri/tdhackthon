@@ -1,4 +1,4 @@
-<td-layout>
+
     <td-layout-nav logo="assets:teradata" toolbarTitle="">
        <button mat-icon-button td-menu-button tdLayoutToggle> 
    
@@ -21,6 +21,8 @@
                     <mat-card-subtitle>Health responses within the United Nations</mat-card-subtitle> 
                     <mat-divider>
                     </mat-divider>
+
+                    
                    <!-- <map [listOfFunctions]="functionlist"></map> -->
                     <map ></map>
                   </mat-card>
@@ -60,47 +62,27 @@
                       </div>
                     </mat-card-content>
                   </mat-card>
+                
                 </div>
-                <!-- <div flex-gt-xs="25"> -->
-                  <!-- <mat-card> -->
-                    <!-- <mat-card-content class="text-center" [style.backgroundColor]="''"> -->
-                      <!-- <div class="mat-headline push-bottom-none">{{ '100' | digits}} <mat-icon class="tc-green-500 text-sm">arrow_upward</mat-icon></div> -->
-                      <!-- <mat-icon class="icon tc-cyan-700">receipt</mat-icon> -->
-                      <!-- <div> -->
-                        <!-- <div class="mat-subheading-2 push-bottom-none"></div> -->
-                        <!-- <button (click)="myClickFunction2()" >Future Prediction</button>-->
+                
+
+                
+                 </div>
+
+                 <div [style.height.px]="320" class="push-top-sm">
+                    <img class="img-css" src="./assets/weather1.png"/>
+                    <img class="img-css1" src="./assets/wether2.png"/>
+                    
+                      </div>
                       
-                      <!-- </div> -->
-                    <!-- </mat-card-content> -->
-                  <!-- </mat-card> -->
-                <!-- </div> -->
-                     </div>
-              <!-- <mat-card>
-                <mat-card-title>Customer Activity</mat-card-title>
-                <mat-card-subtitle>Recent activity from select members</mat-card-subtitle>
-                <mat-divider></mat-divider>
-                <mat-nav-list class="will-load item-list">
-                  <ng-template tdLoading="items.load">
-                    <ng-template let-item let-last="last" ngFor [ngForOf]="items">
-                      <a mat-list-item layout-align="row" [routerLink]="['../item', item.item_id]">
-                        <mat-icon matListAvatar> {{item.icon}} </mat-icon>
-                        <h3 matLine> {{item.name}} </h3>
-                        <p matLine> {{item.description | truncate:50 }} </p>
-                        <span flex></span>
-                        <span class="mat-caption text-right" flex="20"> {{item.created | timeAgo }} </span>
-                      </a>
-                      <mat-divider *ngIf="!last" [inset]="true"></mat-divider>
-                    </ng-template>
-                  </ng-template>
-                </mat-nav-list>
-              </mat-card> -->
-            </div>
+             </div>
             <div flex-gt-sm="60">
                
               <mat-card>
 
       <mat-icon _ngcontent-c423="" class="mat-icon ng-tns-c423-0 material-icons" role="img" aria-hidden="true">notifications</mat-icon>
                 <mat-card-title>Notifications</mat-card-title>
+                
                 <!-- <mat-card-subtitle>Areas requiring attention</mat-card-subtitle> -->
                 <mat-divider></mat-divider>
                 <mat-list class="will-load alert-list">
@@ -109,30 +91,40 @@
                       <mat-list-item layout-align="row">
                         <!-- <mat-icon matListAvatar class="bgc-amber-800">{{item.icon}}</mat-icon> -->
                         <!-- <h3 matLine> {{item.description}} </h3> -->
-                        <p matLine> {{item.name}} </p>
+                        <h3 matLine> {{item.name}} </h3>
                       </mat-list-item>
                       <mat-divider *ngIf="!last" [inset]="true"></mat-divider>
                     </ng-template>
                   </ng-template>
                 </mat-list>
-                <mat-divider></mat-divider>
+                <mat-divider>
+
+                  
+                </mat-divider>
+
+                
                 <mat-card-actions>
                   <a mat-button color="accent" class="text-upper" [routerLink]="['/logs']">
                     <span>View More</span>
                   </a>
                 </mat-card-actions>
+
+                <div>
+
+                 
+                </div>
               </mat-card>
               <mat-card id="dashboard-favorites-card" class="push-top">
-                <mat-card-title>Favorites</mat-card-title>
-                <mat-card-subtitle>Your favorite products</mat-card-subtitle>
+                <mat-card-title>Weather Conditions</mat-card-title>
+                <mat-card-subtitle>Notifications </mat-card-subtitle>
                 <mat-divider></mat-divider>
                 <mat-nav-list class="will-load favorite-list">
                   <ng-template tdLoading="favorites.load">
                     <ng-template let-item let-last="last" ngFor [ngForOf]="products">
                       <mat-list-item layout-align="row" [routerLink]="['/product']">
-                        <mat-icon matListAvatar>{{item.icon}}</mat-icon>
+                        <!-- <mat-icon matListAvatar>{{item.icon}}</mat-icon> -->
                         <h3 matLine> {{item.name}} </h3>
-                        <p matLine> {{item.description}} </p>
+                        <!-- <p matLine> {{item.description}} </p> -->
                       </mat-list-item>
                       <mat-divider *ngIf="!last" [inset]="true"></mat-divider>
                     </ng-template>
@@ -155,4 +147,4 @@
             </div>
           </td-layout-footer>
         </td-layout-nav>
-        </td-layout>
+        
