@@ -69,19 +69,38 @@
                 
                  </div>
 
-                 <div [style.height.px]="320" class="push-top-sm">
+                 <!-- <div [style.height.px]="320" class="push-top-sm">
                     <img class="img-css" src="./assets/weather1.png"/>
                     <img class="img-css1" src="./assets/wether2.png"/>
                     
+                      </div> -->
+
+                      <div layout-gt-xs="row">
+                        <div flex-gt-xs="100">
+                          <mat-card>
+       
+       
+                       <div [style.height.px]="320" class="push-top-sm">
+                          <img class="img-css" src="./assets/weather1.png"/>
+                          <img class="img-css1" src="./assets/wether2.png"/>
+       
+                            </div>
+                          </mat-card>
+                        </div>
                       </div>
+
+
                       
              </div>
             <div flex-gt-sm="60">
                
               <mat-card>
 
-      <mat-icon _ngcontent-c423="" class="mat-icon ng-tns-c423-0 material-icons" role="img" aria-hidden="true">notifications</mat-icon>
-                <mat-card-title>Notifications</mat-card-title>
+      <!-- <mat-icon _ngcontent-c423="" class="mat-icon ng-tns-c423-0 material-icons" role="img" aria-hidden="true">notifications</mat-icon> -->
+                <!-- <mat-card-title>Notifications</mat-card-title> -->
+
+                <mat-card-title><mat-icon _ngcontent-c423="" class="mat-icon ng-tns-c423-0 material-icons" role="img" aria-hidden="true">notifications</mat-icon>
+                  Notifications</mat-card-title>
                 
                 <!-- <mat-card-subtitle>Areas requiring attention</mat-card-subtitle> -->
                 <mat-divider></mat-divider>
@@ -115,7 +134,8 @@
                 </div>
               </mat-card>
               <mat-card id="dashboard-favorites-card" class="push-top">
-                <mat-card-title>Weather Conditions</mat-card-title>
+                <!-- <mat-card-title>Weather Conditions</mat-card-title> -->
+                <mat-card-title> <img class="img-css2" src="./assets/weather3.png"/>   Weather Conditions</mat-card-title>
                 <mat-card-subtitle>Notifications </mat-card-subtitle>
                 <mat-divider></mat-divider>
                 <mat-nav-list class="will-load favorite-list">
